@@ -4,10 +4,7 @@
 document.addEventListener("DOMContentLoaded",(ev) =>{
     textbar();
     var logo = document.querySelector(".logo").addEventListener("click",() =>{
-        
-        location.reload();
-        
-        
+        location.reload();        
     })
  
 })
@@ -38,3 +35,4 @@ function textbar(){
         document.querySelector(".txtbar").innerHTML = "";
     })
 }
+

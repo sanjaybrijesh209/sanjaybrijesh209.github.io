@@ -20,6 +20,11 @@
 }
 
 
+.navlink{
+    color: var(--secondarycolor);
+    font-family: var(--secondaryfont);
+    margin-left: 4vh;
+}
 
 .declaration{
     font-family: var(--thirdfont);
@@ -47,9 +52,9 @@ nav{
     display: sticky;
     position: fixed;
     background-color: rgb(23, 23, 23,0.5);
-   
+  
     
-    height: 80px ;
+    height: auto ;
     width: 100%;
     top: 3px;
 }
