@@ -23,7 +23,7 @@
 .navlink{
     color: var(--secondarycolor);
     font-family: var(--secondaryfont);
-    margin-left: 4vh;
+    margin-left: 2vh;
 }
 
 .declaration{
