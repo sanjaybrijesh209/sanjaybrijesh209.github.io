@@ -75,6 +75,8 @@ body{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+
 /*fullscreeen monitor */ 
 @media (min-width: 400px){
     
@@ -187,14 +189,14 @@ ul,p{
 
 .tab{
     background-image: url(https://media1.giphy.com/media/3o7aDcrsww5Ybp18hq/giphy.gif?cid=ecf05e4731o7paypsv4twu1dllizs03jhwix27ml2hc23it8&rid=giphy.gif&ct=g);
-    /* background-color: #060606; */
+    
     width: 95%;
     height: auto;
     border-radius: 10px;
 }
 
 .ed{
-    /* background-image: url(https://media1.giphy.com/media/3o7aDcrsww5Ybp18hq/giphy.gif?cid=ecf05e4731o7paypsv4twu1dllizs03jhwix27ml2hc23it8&rid=giphy.gif&ct=g); */
+    
     
     width: clamp(100px,100%,1020px);
     border-radius: 10px;
@@ -206,7 +208,7 @@ ul,p{
 }
 
 
-input[type = "text"],input[type = "email"]{
+input[type = "text"],input[type = "email"],input[type = "number"]{
     margin-top: 10px;
     margin-bottom: 10px;
     height: 30px;
@@ -317,9 +319,6 @@ section{
         
     }
     
-    /* .Projects,.Education{
-        font-size: 30vh;
-    } */
     
     .headers{
         font-size: 5vh;

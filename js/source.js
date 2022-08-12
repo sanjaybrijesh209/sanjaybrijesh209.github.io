@@ -17,7 +17,7 @@ function textbar(){
     hiring.addEventListener("change",(ev) =>{
         ev.preventDefault();
         var input = document.createElement("input");
-        input.setAttribute("type","text");
+        input.setAttribute("type","number");
         input.setAttribute("placeholder","fee/hr");
        
     
